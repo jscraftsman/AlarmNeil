@@ -23,6 +23,6 @@ html, body{
 	width: 3em;
 }
 
-#list, #list textarea{
-	width: 400px;
+#displays, #displays textarea{
+	width: 390px;
 }
