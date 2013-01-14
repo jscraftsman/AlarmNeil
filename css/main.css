@@ -1,0 +1,28 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+#inputs, #inputs input[type="text"]{
+	width: 200px;
+}
+#inputs input[type="number"]{
+	text-align: right;
+	width: 3em;
+}
+
+#list, #list textarea{
+	width: 400px;
+}
