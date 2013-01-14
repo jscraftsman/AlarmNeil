@@ -5,7 +5,12 @@ html, body{
 
 #container{
 	width: 600px;
-	margin: 0 auto;
+	height: 270px;
+	margin: 5em auto;
+	padding: 1em;
+	border: 2px dashed #555;
+	background-color: #F8F8F8;
+	box-shadow: 0px 0px 15px 5px darkgray;
 }
 
 .left{
@@ -13,6 +18,10 @@ html, body{
 }
 .right{
 	float: right;
+}
+#inputs h1{
+	color: #888;
+	text-align: center;
 }
 
 #inputs, #inputs input[type="text"]{
@@ -23,6 +32,42 @@ html, body{
 	width: 3em;
 }
 
-#displays, #displays textarea{
+#displays{
 	width: 390px;
+	height: 260px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#displays .msg{
+	border: 1px dashed #666;
+	width: 350px;
+	margin: 5px;
+	padding: 5px;
+}
+#displays .msg:hover, .button:hover{
+	background-color: #F0F0F0;
+	box-shadow: 0px 0px 3px 3px darkgray;
+}
+
+#displays .delete{
+	color: red;
+	display: none;
+	cursor: pointer;
+}
+
+#nums{
+	width: 100%;
+}
+
+
+.button{
+	margin: .3em .4em;
+	display: inline-block;
+	border: 2px dashed #555;
+	text-align: center;
+	padding: .1em 1em;
+}
+#error{
+	color: red;
+	text-align: center;
 }
