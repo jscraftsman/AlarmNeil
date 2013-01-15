@@ -59,7 +59,6 @@ html, body{
 	width: 100%;
 }
 
-
 .button{
 	margin: .3em .4em;
 	display: inline-block;
@@ -69,5 +68,11 @@ html, body{
 }
 #error{
 	color: red;
+	text-align: center;
+}
+
+#footer{
+	clear: both;	
+	width: 100%;
 	text-align: center;
 }
